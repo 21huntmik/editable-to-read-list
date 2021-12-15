@@ -1,0 +1,194 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheet.css">
+		<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="registeringscreen">
+			<div class="spacer">
+			</div>
+			<div class="whitebox">
+				<h2>
+					Create an Account
+				</h2>
+				<p class="createaccounterror">
+					There was a problem. Try again or log in.
+				</p>
+				<p>
+					First Name:
+				</p>
+				<input type="text" class="registerfirstname">
+				<p> 
+					Last Name:
+				</p>
+				<input type="text" class="registerlastname">
+				<p>
+					Email:
+				</p>
+				<input type="text" class="registeremail">
+				<p>
+					Password:
+				</p>
+				<input type="password" class="registerpassword">
+				<div class="smallspacer">
+				</div>
+				<div>
+					<button id="createaccount">
+						Create Account
+					</button>
+				</div>
+				<div class="spacer">
+				</div>
+				<div>
+					<button id="gotologin">
+						Already have an account? Log in here.
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="loginscreen">
+			<div class="spacer">
+			</div>
+			<div class="whitebox">
+				<h2>
+					Log In
+				</h2>
+				<p class="loginerror">
+					There was a problem. Try again or register.
+				</p>
+				<p>
+					Email:
+				</p>
+				<input type="text" class="loginemail">
+				<p>
+					Password:
+				</p>
+				<input type="password" class="loginpassword">
+				<div class="smallspacer">
+				</div>
+				<div>
+					<button id="login">
+						Log In
+					</button>
+				</div>
+				<div class="spacer">
+				</div>
+				<div>
+					<button id="gotoregister">
+						Need to set up an account? Register here.
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="loggedin">
+			<div id="banner">
+				<div class="dropdown">
+  					<button class="dropbtn">
+  						&#9776;
+  					</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<button class="logmeout">
+    						Log Out
+    					</button>
+  					</div>
+				</div>
+
+				<h1>
+					Books To Read
+				</h1>
+			</div>
+			<div class="spacer">
+			</div>
+			<div id="welcome">
+			</div>
+			<div id="group">
+
+				<div id="inputbox">
+					<div class="datatypebox">
+						<p>
+							Title:
+						</p>
+						<input type="text" class="titleinput">
+					</div>
+					<div class="datatypebox">
+						<p>
+							Author:
+						</p>
+						<input type="text" class="authorinput">
+					</div>
+					<div class="datatypebox">
+						<p>
+							Year:
+						</p>
+						<input type="text" class="yearinput">
+					</div>
+					<div class="datatypebox">
+						<p>
+							Page Count:
+						</p>
+						<input type="text" class="pageinput">
+					</div>
+					<div class="datatypebox">
+						<p>
+							Genre:
+						</p>
+						<input type="text" class="genreinput">
+					</div>
+					<div class="enterButton">
+						<button>
+							Enter
+						</button>
+					</div>
+				</div>
+
+				<div id="editbox">
+					<div class="datatypebox">
+						<p>
+							Title:
+						</p>
+						<input type="text" class="titleinpute">
+					</div>
+					<div class="datatypebox">
+						<p>
+							Author:
+						</p>
+						<input type="text" class="authorinpute">
+					</div>
+					<div class="datatypebox">
+						<p>
+							Year:
+						</p>
+						<input type="text" class="yearinpute">
+					</div>
+					<div class="datatypebox">
+						<p>
+							Page Count:
+						</p>
+						<input type="text" class="pageinpute">
+					</div>
+					<div class="datatypebox">
+						<p>
+							Genre:
+						</p>
+						<input type="text" class="genreinpute">
+					</div>
+					<div class="updateButton">
+						<button>
+							Save Changes
+						</button>
+					</div>
+				</div>
+
+				<div id="output">
+					<ul class="outputlist">
+					</ul>
+				</div>
+
+			</div>
+			<script src="app.js"></script>
+		</div>
+	</body>
+</html>
